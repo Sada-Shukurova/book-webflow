@@ -343,6 +343,9 @@ p {
 .w-180 {
   max-width: 180px;
 }
+.w-300 {
+  max-width: 300px;
+}
 .readers-say {
   position: relative;
 }
@@ -380,4 +383,7 @@ p {
 }
 .readers-img {
   max-width: 200px;
+}
+.cards {
+  gap: 20px;
 }
