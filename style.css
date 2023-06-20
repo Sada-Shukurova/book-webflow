@@ -336,3 +336,48 @@ p {
 .free-trial h6 a {
   text-decoration: underline;
 }
+
+.rating-section {
+  padding: 50px 0;
+}
+.w-180 {
+  max-width: 180px;
+}
+.readers-say {
+  position: relative;
+}
+.readers-say::before {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: #ffca42;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  top: 95px;
+}
+.readers-say-p {
+  padding-top: 20px;
+}
+.small-circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ffca42;
+}
+.circles {
+  gap: 5px;
+}
+.rating-text {
+  margin-top: 0;
+}
+
+.readers-img-container {
+  flex-direction: column;
+  gap: 30px;
+}
+.readers-img {
+  max-width: 200px;
+}
