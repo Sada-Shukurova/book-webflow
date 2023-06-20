@@ -13,6 +13,10 @@
 /* ul {
   padding-inline-start: 0px;
 } */
+* {
+  box-sizing: border-box;
+  object-fit: cover;
+}
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -253,7 +257,6 @@ p {
 }
 .magazine {
   max-width: 450px;
-  object-fit: cover;
 }
 
 .learn {
@@ -386,4 +389,38 @@ p {
 }
 .cards {
   gap: 20px;
+}
+.articles {
+  padding: 40px;
+}
+.article-text {
+  position: relative;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.article-text::after {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: #ffca42;
+  position: absolute;
+  bottom: 0;
+  left: 470px;
+  top: 40px;
+}
+.article-img-container {
+  gap: 20px;
+}
+.article-text-container {
+  padding: 20px;
+  text-align: left;
+}
+.article-card {
+  flex-direction: column;
+  max-width: 300px;
+  background-color: white;
+}
+.article-card-details h6 a {
+  text-decoration: underline;
 }
