@@ -211,7 +211,7 @@ p {
   left: 430px;
   top: 30px;
 }
-.trusted-brands{
+.trusted-brands {
   gap: 30px;
 }
 .trusted-card {
@@ -223,3 +223,4 @@ p {
   max-height: 90px;
   object-fit: contain;
 }
+
