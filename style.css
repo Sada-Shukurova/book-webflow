@@ -70,7 +70,9 @@ body {
 .pages-container {
   gap: 10px;
 }
-
+.mar-30{
+  margin: 30px auto;
+}
 .bg-blue {
   background-color: #1b3764;
 }
@@ -502,13 +504,25 @@ p {
 .soc-media-icons {
   gap: 5px;
 }
+.i-blue{
+  color: #1b3764;
+}
 .icons-border {
   border: 1px solid #ffca42;
-  width: 45px;
-  height: 45px;
+  width: 35px;
+  height: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.icons-border-bg-white{
+  border: none;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
 }
 footer {
   padding: 30px;
