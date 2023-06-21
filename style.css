@@ -29,6 +29,7 @@ body {
 }
 .nav {
   gap: 80px;
+  padding-bottom: 30px;
 }
 .unique-text {
   padding: 10px;
@@ -70,7 +71,7 @@ body {
 .pages-container {
   gap: 10px;
 }
-.mar-30{
+.mar-30 {
   margin: 30px auto;
 }
 .bg-blue {
@@ -435,6 +436,7 @@ p {
 }
 .article-img-container {
   gap: 20px;
+  flex-wrap: wrap;
 }
 .article-text-container {
   padding: 20px;
@@ -504,7 +506,7 @@ p {
 .soc-media-icons {
   gap: 5px;
 }
-.i-blue{
+.i-blue {
   color: #1b3764;
 }
 .icons-border {
@@ -515,7 +517,7 @@ p {
   justify-content: center;
   align-items: center;
 }
-.icons-border-bg-white{
+.icons-border-bg-white {
   border: none;
   width: 35px;
   height: 35px;
@@ -567,4 +569,29 @@ ul {
 }
 .min-61 {
   min-width: 61px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    max-width: 660px ;
+  }
+  .bookLight{
+    display: none;
+  }
+  .books-section{
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+.container{
+  max-width: 560px;
+  padding: 15px;
+}
+.bookLight{
+  display: none;
+}
+.pages-cont{
+  flex-wrap: wrap;
+}
 }
