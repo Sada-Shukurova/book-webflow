@@ -466,3 +466,8 @@ p {
   padding: 10px 60px;
   cursor: pointer;
 }
+.logo-container{
+  max-width: 200px;
+  flex-direction: column;
+  gap: 10px;
+}
