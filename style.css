@@ -24,6 +24,22 @@ body {
   color: #f9fbff;
   font-family: Cardo-regular, Cardo-italic, Cardo-bold, serif;
 }
+.header {
+  padding-bottom: 30px;
+}
+.nav {
+  gap: 80px;
+}
+.unique-text {
+  padding: 10px;
+}
+.blue-section {
+  pad: 10px;
+  gap: 20px;
+}
+.pages-cont {
+  gap: 40px;
+}
 .d-flex {
   display: flex;
 }
@@ -180,6 +196,9 @@ p {
 }
 .books-section {
   padding: 50px 0;
+}
+.includes-text {
+  text-align: center;
 }
 .author-section {
   padding: 50px 0;
