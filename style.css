@@ -31,11 +31,12 @@ body {
   gap: 80px;
   padding-bottom: 30px;
 }
+
 .unique-text {
-  padding: 10px;
+  padding: 10px 0;
 }
 .blue-section {
-  pad: 10px;
+  padding: 10px;
   gap: 20px;
 }
 .pages-cont {
@@ -69,7 +70,10 @@ body {
   gap: 15px;
 }
 .pages-container {
-  gap: 10px;
+  gap: 20px;
+}
+.links li {
+  display: inline-block;
 }
 .mar-30 {
   margin: 30px auto;
@@ -97,6 +101,7 @@ body {
 .header-icons-container {
   gap: 10px;
 }
+
 .btn {
   background-color: #ffca42;
   border: none;
@@ -158,6 +163,7 @@ p {
 
 .lined {
   position: relative;
+  padding-left: 25px;
 }
 .lined::before {
   content: "";
@@ -165,7 +171,7 @@ p {
   width: 20px;
   height: 0.5px;
   background: #ffca42;
-  left: -20px;
+  left: 0;
   top: 50%;
   position: absolute;
 }
@@ -189,7 +195,9 @@ p {
   left: 470px;
   top: 30px;
 }
-
+.books-pages-cont {
+  gap: 40px;
+}
 .books-small {
   max-height: 300px;
 }
@@ -207,9 +215,10 @@ p {
   padding: 50px 0;
   gap: 60px;
 }
-.author-section img {
+.author-image {
   max-height: 350px;
 }
+
 .about-author-underline {
   position: relative;
 }
@@ -227,8 +236,11 @@ p {
   border-right: solid #ffca42;
   padding-right: 50px;
 }
-.visit-card {
+.visit-card-container {
   margin-top: 30px;
+}
+.visit-card {
+  max-width: 500px;
 }
 .trusted {
   gap: 20px;
@@ -540,23 +552,11 @@ ul {
 }
 .explore li::before {
   display: inline-block;
-  /* border: 0.5px solid #ffca42;
-  border-radius: 50%;
-  height: 5px;
-  width: 5px;
-  margin-right: 0.5rem;
-  background-color: transparent; */
   content: url("./assets/icon.png");
   margin-right: 10px;
 }
 .utility li::before {
   display: inline-block;
-  /* border: 0.5px solid #ffca42;
-  border-radius:50%;
-  height: 5px;
-  width: 5px;
-  margin-right: 0.5rem;
-  background-color: transparent; */
   content: url("./assets/icon.png");
   margin-right: 10px;
 }
@@ -571,27 +571,144 @@ ul {
   min-width: 61px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+/* Tablet */
+@media only screen and (max-width: 1023px) {
   .container {
-    max-width: 660px ;
+    max-width: 660px;
   }
-  .bookLight{
+
+  .welcome-section * {
+    text-align: center;
+  }
+  .lined::before {
+    left: 200px;
+  }
+  .blue-section {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .pages-cont {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .links li {
+    min-width: 60px;
+  }
+  .bookLight {
     display: none;
   }
-  .books-section{
+  .books-section {
     flex-wrap: wrap;
+  }
+  .line-sm::after {
+    left: 300px;
+  }
+  .books-pages-cont {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .author-section {
+    gap: 20px;
+  }
+  .visit-card {
+    max-width: 400px;
+  }
+  .border-right-yellow {
+    padding-right: 20px;
+  }
+  .trusted-brands {
+    flex-wrap: wrap;
+  }
+  .trusted-text::after {
+    left: 315px;
+  }
+  .get-copy {
+    gap: 0;
+  }
+  .get-copy-text::after {
+    top: unset;
+  }
+  .learn::after {
+    left: 300px;
+  }
+  .learn-cont {
+    display: flex;
+    flex-direction: column;
+  }
+  .learn-image {
+    display: flex;
+    align-items: center;
+  }
+  .includes-text::after {
+    left: 300px;
+  }
+  .chapters {
+    flex-direction: column;
   }
 }
 
+/* Mobile */
 @media only screen and (max-width: 768px) {
-.container{
-  max-width: 560px;
-  padding: 15px;
-}
-.bookLight{
-  display: none;
-}
-.pages-cont{
-  flex-wrap: wrap;
-}
+  .container {
+    max-width: 560px;
+    padding: 15px;
+  }
+  .lined::before {
+    display: none;
+  }
+  .pages-cont {
+    justify-content: flex-start;
+  }
+  .nav {
+    gap: 0;
+  }
+  .line-sm::after {
+    display: none;
+  }
+  .author-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-author-section * {
+    text-align: center;
+  }
+  .about-author-underline::before {
+    display: none;
+  }
+  .yellow-border-section {
+    justify-content: space-around;
+  }
+  .trusted-text::after {
+    display: none;
+  }
+  .get-copy-text::after {
+    display: none;
+  }
+  .get-copy-container p {
+    text-align: center;
+  }
+  .get-copy-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .magazine {
+    display: none;
+  }
+  .learn-image {
+    display: none;
+  }
+  .learn::after {
+    display: none;
+  }
+  .subjects {
+    justify-content: center;
+  }
+  .includes-text::after {
+    display: none;
+  }
+  .chapters-details {
+    gap: 10px;
+  }
 }

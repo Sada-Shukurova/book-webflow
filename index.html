@@ -47,24 +47,33 @@
             </a>
           </div>
         </div>
-        
+        <!-- navigation start -->
         <div class="d-flex pages-container align-center">
-          <h5>Home</h5>
-          <h5>Pages <i class="fa-solid fa-chevron-down fa-xs"></i></h5>
-          <h5>About</h5>
-          <h5>Services</h5>
-          <h5>Contact</h5>
-          <i class="fa-solid fa-cart-shopping"></i>
+          <ul class="d-flex pages-container align-center links">
+            <li><a href="#">Home</a></li>
+            <li>
+              <a href="#pages"
+                >Pages <i class="fa-solid fa-chevron-down fa-xs"></i
+              ></a>
+            </li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <a href="#cart"><i class="fa-solid fa-cart-shopping"></i></a>
+
           <button class="btn">
             <a class="blue" href="#">Order Today</a>
           </button>
         </div>
+        <!-- navigation end -->
       </div>
     </header>
+    <!-- welcome to pages start -->
     <div class="bg-blue">
       <div class="nav container d-flex space-between">
         <div>
-          <div>
+          <div class="welcome-section">
             <p class="lined"><i>Welcome to Pages</i></p>
             <h1 class="unique-text">Books are uniquely portable magic</h1>
             <p>
@@ -104,7 +113,9 @@
         </div>
       </div>
     </div>
+    <!-- welcome to pages end -->
 
+    <!-- author`s books start -->
     <div class="books-section">
       <div class="container">
         <h2 class="blue line-sm includes-text">Author's Book Includes</h2>
@@ -121,7 +132,7 @@
                 Many variations of passages of Lorem Ipsum willing araise
                 alteration in some form.
               </p>
-              <div style="gap: 40px" class="d-flex blue">
+              <div class="d-flex blue books-pages-cont">
                 <div class="bulleted">
                   <h4>Pages:</h4>
                   <p class="gray">586 pages</p>
@@ -149,7 +160,7 @@
                 Many variations of passages of Lorem Ipsum willing araise
                 alteration in some form.
               </p>
-              <div class="pages-cont d-flex blue">
+              <div class="d-flex blue books-pages-cont">
                 <div class="bulleted">
                   <h4>Pages:</h4>
                   <p class="gray">586 pages</p>
@@ -167,14 +178,16 @@
         </div>
       </div>
     </div>
+    <!-- author`s books end -->
 
+    <!-- about author start -->
     <div class="bg-light-blue">
       <div class="container blue d-flex space-between author-section">
         <div>
-          <img src="./assets/Author.jpg" alt="Author John Abraham" />
+          <img class="author-image" src="./assets/Author.jpg" alt="Author John Abraham" />
         </div>
 
-        <div>
+        <div class="about-author-section">
           <h2 class="about-author-underline blue">About Author</h2>
           <p class="gray">
             All the Lorem Ipsum generators on the Internet tend to repeated
@@ -182,7 +195,7 @@
             generator on the Internet. It uses a dictionary of over 200 Latin
             words, combined with a handful.
           </p>
-          <div class="d-flex space-between">
+          <div class="yellow-border-section d-flex space-between">
             <div class="border-right-yellow">
               <h2>02</h2>
               <p class="gray">Books Published</p>
@@ -196,13 +209,15 @@
               <p class="gray">Best Seller Awards</p>
             </div>
           </div>
-          <div class="visit-card">
-            <img src="./assets/visit-card.png" alt="visit card" />
+          <div class="visit-card-container">
+            <img class="visit-card" src="./assets/visit-card.png" alt="visit card" />
           </div>
         </div>
       </div>
     </div>
+    <!-- about author end -->
 
+<!-- trusted by the best start -->
     <div class="trusted d-flex">
       <div class="container">
         <h2 class="trusted-text blue">Trusted by the Best</h2>
@@ -247,16 +262,18 @@
         </div>
       </div>
     </div>
+<!-- trusted by the best end -->
 
+<!-- get copy start -->
     <div class="bg-blue white">
       <div class="get-copy container d-flex space-between align-center">
-        <div>
+        <div class="get-copy-container">
           <h2 class="get-copy-text">Get Book Copy Today!</h2>
           <p class="gray">
             This the first true value generator on the Internet. It uses alphas
             dictionary of over 200 Latin words.
           </p>
-          <button class="btn-no-bg-white">Order Today</button>
+          <button class="btn-no-bg-white"><a href="#">Order Today</a></button>
         </div>
         <div>
           <img
@@ -267,8 +284,11 @@
         </div>
       </div>
     </div>
+    <!-- get-copy end -->
+
+    <!-- what you`ll learn start -->
     <div>
-      <div class="container">
+      <div class="container learn-cont">
         <h2 class="learn blue">What will you learn?</h2>
         <div class="d-flex space-between">
           <div class="subjects d-flex">
@@ -298,7 +318,7 @@
               </h5>
             </div>
           </div>
-          <div>
+          <div class="learn-image">
             <img
               class="book-reader-img"
               src="./assets/book-reader.jpg"
@@ -308,6 +328,7 @@
         </div>
       </div>
     </div>
+    <!-- what yoy`ll learn end -->
     <div class="bg-light-blue blue">
       <div class="container">
         <h2 class="includes-text">The Chapter Includes</h2>
