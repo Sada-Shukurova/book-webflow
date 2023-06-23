@@ -14,6 +14,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
   </head>
+  
   <body>
     <header class="bg-blue">
       <div class="header d-flex container space-between align-center">
@@ -59,12 +60,42 @@
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact</a></li>
+            <div class="header-icons-container d-flex">
+              <a
+                class="icons-border-bg-white"
+                target="_blank"
+                href="https://www.facebook.com/"
+              >
+                <i class="fa-brands i-blue fa-facebook-f fa-sm"> </i>
+              </a>
+
+              <a
+                class="icons-border-bg-white"
+                target="_blank"
+                href="https://twitter.com/"
+              >
+                <i class="fa-brands i-blue fa-twitter fa-sm"> </i>
+              </a>
+              <a
+                class="icons-border-bg-white"
+                target="_blank"
+                href="https://www.linkedin.com/"
+              >
+                <i class="fa-brands i-blue fa-linkedin-in fa-sm"> </i>
+              </a>
+            </div>
+            <button class="btn menu-btn">
+              <a class="blue" href="#">Order Today</a>
+            </button>
           </ul>
           <a href="#cart"><i class="fa-solid fa-cart-shopping"></i></a>
 
-          <button class="btn">
+          <button class="btn menu-btn">
             <a class="blue" href="#">Order Today</a>
           </button>
+          <div class="menu" id="menu">
+            <i class="fa-solid fa-bars"></i>
+          </div>
         </div>
         <!-- navigation end -->
       </div>
@@ -184,7 +215,11 @@
     <div class="bg-light-blue">
       <div class="container blue d-flex space-between author-section">
         <div>
-          <img class="author-image" src="./assets/Author.jpg" alt="Author John Abraham" />
+          <img
+            class="author-image"
+            src="./assets/Author.jpg"
+            alt="Author John Abraham"
+          />
         </div>
 
         <div class="about-author-section">
@@ -210,14 +245,18 @@
             </div>
           </div>
           <div class="visit-card-container">
-            <img class="visit-card" src="./assets/visit-card.png" alt="visit card" />
+            <img
+              class="visit-card"
+              src="./assets/visit-card.png"
+              alt="visit card"
+            />
           </div>
         </div>
       </div>
     </div>
     <!-- about author end -->
 
-<!-- trusted by the best start -->
+    <!-- trusted by the best start -->
     <div class="trusted d-flex">
       <div class="container">
         <h2 class="trusted-text blue">Trusted by the Best</h2>
@@ -262,9 +301,9 @@
         </div>
       </div>
     </div>
-<!-- trusted by the best end -->
+    <!-- trusted by the best end -->
 
-<!-- get copy start -->
+    <!-- get copy start -->
     <div class="bg-blue white">
       <div class="get-copy container d-flex space-between align-center">
         <div class="get-copy-container">
@@ -328,7 +367,9 @@
         </div>
       </div>
     </div>
-    <!-- what yoy`ll learn end -->
+    <!-- what you`ll learn end -->
+
+    <!-- the chapter includes start -->
     <div class="bg-light-blue blue">
       <div class="container">
         <h2 class="includes-text">The Chapter Includes</h2>
@@ -395,9 +436,11 @@
         </div>
       </div>
     </div>
+    <!-- chapter includes end -->
 
+    <!-- what readers say start -->
     <div class="rating-section">
-      <div class="d-flex container space-between blue">
+      <div class="d-flex container space-between blue reader-rating-cont">
         <div class="w-300">
           <h2 class="w-180 readers-say">What Readers Say About the Book</h2>
           <h4 class="gray readers-say-p">
@@ -438,9 +481,11 @@
         </div>
       </div>
     </div>
+    <!-- what readers say end -->
 
+    <!-- aricles start -->
     <div class="bg-light-blue articles blue">
-      <div class="container">
+      <div class="container d-flex align-center articles-container">
         <h3 class="article-text">Articles & Resources</h3>
         <div class="article-img-container d-flex">
           <div class="article-card d-flex">
@@ -494,6 +539,9 @@
         </div>
       </div>
     </div>
+    <!-- articles end -->
+
+    <!-- free chapter start -->
     <div>
       <div class="container bg-orange blue d-flex align-center">
         <div class="chapter-container">
@@ -513,6 +561,9 @@
         </form>
       </div>
     </div>
+    <!-- free chapters end -->
+
+    <!-- footer start -->
     <footer class="bg-blue">
       <div class="d-flex space-between container footer-container">
         <div class="footer-logo-container d-flex">
@@ -587,5 +638,14 @@
         </div>
       </div>
     </footer>
+    <!-- footer end -->
+    <script>
+      let menu = document.getElementById("menu");
+      let links = document.querySelector(".links");
+      menu.addEventListener("click", menuToggle);
+      function menuToggle() {
+        links.classList.toggle("active");
+      }
+    </script>
   </body>
 </html>
