@@ -490,7 +490,7 @@ ul {
 }
 
 .copyright-txt {
-  border-top: 1px solid white;
+  border-top: 0.5px solid white;
   text-align: center;
   padding-top: 30px;
 }
@@ -588,6 +588,7 @@ ul {
   .about-author-text h4 {
     line-height: 1.5rem;
   }
+}
 
 /* Mobile */
 @media only screen and (max-width: 768px) {
@@ -598,7 +599,7 @@ ul {
   .nav {
     gap: 0;
   }
-  .unique-text::after{
+  .unique-text::after {
     display: none;
   }
   .about-author-container {
@@ -705,7 +706,7 @@ ul {
   .story-1::after {
     bottom: -30px;
   }
-  .copyright-txt{
+  .copyright-txt {
     padding-top: 10px;
   }
 }
