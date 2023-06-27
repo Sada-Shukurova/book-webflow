@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Webflow Single Product page</title>
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- header start -->
+    <header class="bg-blue">
+      <div class="header d-flex container space-between align-center">
+        <div class="d-flex align-center icon-container">
+          <div class="d-flex align-center logo-container">
+            <i class="fa-solid fa-book-bookmark yellow fa-lg"></i>
+            <h3>Pages</h3>
+          </div>
+          <div class="header-icons-container d-flex">
+            <a
+              class="icons-border-bg-white"
+              target="_blank"
+              href="https://www.facebook.com/"
+            >
+              <i class="fa-brands i-blue fa-facebook-f fa-sm"> </i>
+            </a>
+
+            <a
+              class="icons-border-bg-white"
+              target="_blank"
+              href="https://twitter.com/"
+            >
+              <i class="fa-brands i-blue fa-twitter fa-sm"> </i>
+            </a>
+            <a
+              class="icons-border-bg-white"
+              target="_blank"
+              href="https://www.linkedin.com/"
+            >
+              <i class="fa-brands i-blue fa-linkedin-in fa-sm"> </i>
+            </a>
+          </div>
+        </div>
+        <!-- header end -->
+
+        <!-- navigation start -->
+        <div class="d-flex pages-container align-center">
+          <ul class="d-flex pages-container align-center links">
+            <div class="d-flex align-center hidden-logo logo-container">
+              <i class="fa-solid fa-book-bookmark yellow fa-lg"></i>
+              <h3>Pages</h3>
+              <a class="cart-shop" href="#cart"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></a>
+              <div id="close-menu">
+                <i class="fa-regular fa-rectangle-xmark fa-lg"></i>
+              </div>
+            </div>
+            <li><a href="#">Home</a></li>
+            <li>
+              <a href="#pages"
+                >Pages <i class="fa-solid fa-chevron-down fa-xs"></i
+              ></a>
+            </li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="header-icons-container d-flex">
+              <a
+                class="icons-border-bg-white"
+                target="_blank"
+                href="https://www.facebook.com/"
+              >
+                <i
+                  class="fa-brands fa-brands-header i-blue fa-facebook-f fa-sm"
+                >
+                </i>
+              </a>
+
+              <a
+                class="icons-border-bg-white"
+                target="_blank"
+                href="https://twitter.com/"
+              >
+                <i class="fa-brands fa-brands-header i-blue fa-twitter fa-sm">
+                </i>
+              </a>
+              <a
+                class="icons-border-bg-white"
+                target="_blank"
+                href="https://www.linkedin.com/"
+              >
+                <i
+                  class="fa-brands fa-brands-header i-blue fa-linkedin-in fa-sm"
+                >
+                </i>
+              </a>
+            </div>
+            <button class="btn menu-btn">
+              <a class="blue" href="#">Order Today</a>
+            </button>
+          </ul>
+          <a class="cart-shop" href="#cart"
+            ><i class="fa-solid fa-cart-shopping"></i
+          ></a>
+
+          <button class="btn menu-btn">
+            <a class="blue" href="#">Order Today</a>
+          </button>
+          <div class="menu" id="menu">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- navigation end -->
+
+    <!-- my store section start -->
+    <div class="bg-blue">
+      <div class="nav container d-flex">
+        <h1 class="unique-text">My Store</h1>
+        <p class="gray w-400">
+          There are many variations of passages of Lorem Ipsum available, have
+          suffered alteration in some form.
+        </p>
+      </div>
+    </div>
+    <!-- my store section end -->
+
+    <!-- single book start -->
+    <section class="d-flex single-book center">
+      <div class="single-book-container bg-light-blue">
+        <img src="../assets/Book-sm1.png" alt="" />
+      </div>
+      <div class="single-book-description d-flex f-dir-column">
+        <h2 class="blue">The Atomic One`s</h2>
+        <h2 class="yellow">$30.00 USD</h2>
+        <p class="gray">
+          Making this the first true generator on the Internet. It uses a
+          dictionary of over 200 Latin words, combined with a handful of model
+          sentence structures, to generate Lorem Ipsum which looks reasonable.
+          The generated Lorem Ipsum.
+        </p>
+
+        <div>
+          <ul class="gray pad-left-0">
+            <li>
+              <span class="detailTitle">Publisher</span>
+              <span class="detailDot">:</span>
+              <span>Learning Private Limited (1 January 2021)</span>
+            </li>
+
+            <li>
+              <span class="detailTitle">Language</span>
+              <span class="detailDot">:</span>
+              <span>English</span>
+            </li>
+
+            <li>
+              <span class="detailTitle">Paperback</span>
+              <span class="detailDot">:</span>
+              <span>212 pages</span>
+            </li>
+
+            <li>
+              <span class="detailTitle">ISBN-10</span>
+              <span class="detailDot">:</span>
+              9788120345799
+            </li>
+
+            <li>
+              <span class="detailTitle">Dimensions</span>
+              <span class="detailDot">:</span>
+              <span>20 x 14 x 4 cm</span>
+            </li>
+          </ul>
+        </div>
+        <div class="single-book-buttons d-flex">
+          <button class="btn-no-bg">1</button>
+          <button class="btn wide-btn">
+            <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- single book end -->
+
+    <!-- product description buttons start -->
+    <div class="product-btn-container d-flex center">
+      <button class="btn-bg-blue">PRODUCT DESCRIPTION</button>
+      <button class="btn-bg-light-blue">ADDITIONAL INFO</button>
+    </div>
+    <!-- product description buttons end -->
+  </body>
+</html>
