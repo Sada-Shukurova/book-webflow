@@ -480,8 +480,8 @@ ul {
 .contact {
   gap: 10px;
 }
-.min-61 {
-  min-width: 61px;
+.min-66 {
+  min-width: 66px;
 }
 /* footer end */
 /* copyright start */
@@ -544,6 +544,11 @@ ul {
   }
   .trusted-text::after {
     left: 315px;
+  }
+  .footer-container {
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
   }
 }
 
@@ -677,19 +682,7 @@ ul {
   .about-author-card {
     min-width: 300px;
   }
-  .books-sec-cont {
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-  }
-  .books-sec-cont * {
-    max-width: 300px;
-    text-align: center;
-  }
-  .books-section {
-    gap: 30px;
-    justify-content: center;
-  }
+
   .books-pages-cont {
     justify-content: center;
   }
