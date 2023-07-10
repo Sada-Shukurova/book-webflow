@@ -309,12 +309,13 @@
     .fa-cart-shopping {
       display: none;
     }
-  
+    .contact {
+      max-width: 200px;
+    }
     .footer-container {
       flex-wrap: wrap;
       align-items: baseline;
       justify-content: center;
-      color: #ffca42;
     }
   }
   

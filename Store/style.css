@@ -401,6 +401,9 @@ ul {
   .books-section {
     flex-wrap: wrap;
   }
+  .contact {
+    max-width: 200px;
+  }
   .footer-container {
     flex-wrap: wrap;
     align-items: baseline;

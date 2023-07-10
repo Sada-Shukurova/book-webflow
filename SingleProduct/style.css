@@ -418,6 +418,9 @@ ul {
   .questions-right {
     max-width: 250px;
   }
+  .contact {
+    max-width: 200px;
+  }
   .footer-container {
     flex-wrap: wrap;
     align-items: baseline;

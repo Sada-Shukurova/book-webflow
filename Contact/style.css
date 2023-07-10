@@ -445,12 +445,13 @@ ul {
   .questions-heading::after {
     left: 300px;
   }
-
+  .contact {
+    max-width: 200px;
+  }
   .footer-container {
     flex-wrap: wrap;
     align-items: baseline;
     justify-content: center;
-    color: #ffca42;
   }
 }
 
