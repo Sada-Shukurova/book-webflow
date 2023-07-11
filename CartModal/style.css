@@ -1,14 +1,14 @@
 @font-face {
   font-family: Cardo-regular;
-  src: url(./fonts/Cardo-Regular.ttf);
+  src: url(../fonts/Cardo-Regular.ttf);
 }
 @font-face {
   font-family: Cardo-italic;
-  src: url(./fonts/Cardo-Italic.ttf);
+  src: url(../fonts/Cardo-Italic.ttf);
 }
 @font-face {
   font-family: Cardo-bold;
-  src: url(./fonts/Cardo-Bold.ttf);
+  src: url(../fonts/Cardo-Bold.ttf);
 }
 
 /* styles for all pages start */
@@ -396,13 +396,13 @@ ul {
 /* copyright end */
 
 /* Modal start */
-.bg-gray{
-    background-color:rgba(27, 55, 100, 0.86);
-    position: fixed;
-    z-index: 1000;
-    top: 0;
-    width: 100vw;
-    height: 100vh;
+.bg-gray {
+  background-color: rgba(27, 55, 100, 0.86);
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
 }
 .modal {
   background-color: #f9f9f9;
@@ -443,7 +443,6 @@ ul {
   margin: 5px 20px;
 }
 /* Modal end */
-
 
 /* Tablet */
 @media only screen and (max-width: 1023px) {
@@ -558,11 +557,11 @@ ul {
   .footer-logo-container {
     align-items: center;
   }
-  .modal{
+  .modal {
     left: 5%;
     max-width: 250px;
   }
-  .book-in-cart{
+  .book-in-cart {
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -608,7 +607,6 @@ ul {
     justify-content: unset;
     align-items: center;
   }
-
 }
 @media screen and (max-width: 400px) {
   .single-book-container img {
@@ -641,13 +639,13 @@ ul {
   .copyright-txt {
     padding-top: 10px;
   }
-  .modal{
+  .modal {
     max-width: 200px;
   }
-.modal-heading{
+  .modal-heading {
     padding: 5px 15px;
-}
-.book-in-cart{
+  }
+  .book-in-cart {
     padding: 5px;
-}
+  }
 }

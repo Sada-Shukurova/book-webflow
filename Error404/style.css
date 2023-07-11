@@ -1,14 +1,14 @@
 @font-face {
   font-family: Cardo-regular;
-  src: url(./fonts/Cardo-Regular.ttf);
+  src: url(../fonts/Cardo-Regular.ttf);
 }
 @font-face {
   font-family: Cardo-italic;
-  src: url(./fonts/Cardo-Italic.ttf);
+  src: url(../fonts/Cardo-Italic.ttf);
 }
 @font-face {
   font-family: Cardo-bold;
-  src: url(./fonts/Cardo-Bold.ttf);
+  src: url(../fonts/Cardo-Bold.ttf);
 }
 
 /* styles for all pages start */
@@ -415,18 +415,18 @@ ul {
   .links .header-icons-container {
     display: flex;
   }
-.error-message p{
+  .error-message p {
     max-width: 300px;
-}
+  }
 }
 
 @media screen and (max-width: 400px) {
-    .error-message p{
-        max-width: 200px;
-    }
-    .error-txt{
-        font-size: 100px;
-    }
+  .error-message p {
+    max-width: 200px;
+  }
+  .error-txt {
+    font-size: 100px;
+  }
   .copyright-txt {
     padding-top: 10px;
   }

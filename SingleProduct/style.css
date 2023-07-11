@@ -1,14 +1,14 @@
 @font-face {
   font-family: Cardo-regular;
-  src: url(./fonts/Cardo-Regular.ttf);
+  src: url(../fonts/Cardo-Regular.ttf);
 }
 @font-face {
   font-family: Cardo-italic;
-  src: url(./fonts/Cardo-Italic.ttf);
+  src: url(../fonts/Cardo-Italic.ttf);
 }
 @font-face {
   font-family: Cardo-bold;
-  src: url(./fonts/Cardo-Bold.ttf);
+  src: url(../fonts/Cardo-Bold.ttf);
 }
 
 /* styles for all pages start */
@@ -297,8 +297,8 @@ ul {
 .questions-right {
   padding-right: 30px;
 }
-.pad-50{
-    padding-bottom: 50px;
+.pad-50 {
+  padding-bottom: 50px;
 }
 /* questions end */
 
