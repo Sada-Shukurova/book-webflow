@@ -374,10 +374,16 @@ ul {
   .unique-text::after {
     display: none;
   }
-
+  .articles {
+    padding: 0;
+  }
+.article-card{
+  max-width: 500px;
+}
   .footer-container {
     flex-direction: column;
     align-items: center;
+    gap: 10px;
   }
   .footer-logo-container {
     align-items: center;
@@ -393,6 +399,13 @@ ul {
   .logo-container {
     gap: 50px;
   }
+  .unique-text{
+    margin: 0;
+    padding: 0;
+  }
+  .article-card{
+    max-width: 350px;
+  }
 
   .menu-btn {
     display: none;
@@ -407,11 +420,26 @@ ul {
   .links .header-icons-container {
     display: flex;
   }
+  footer{
+    padding: 0;
+  }
+  .copyright{
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .articles {
-    padding: 40px 0;
+    padding: 0;
+  }
+  .articles-container {
+    align-items: center;
+  }
+  .article-text-container {
+    padding: 0;
+  }
+  .article-card {
+    max-width: 220px;
   }
   .copyright-txt {
     padding-top: 10px;
