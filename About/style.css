@@ -465,12 +465,12 @@ ul {
 }
 .explore li::before {
   display: inline-block;
-  content: url("../assets/icon.png");
+  content: url("./assets/icon.png");
   margin-right: 10px;
 }
 .utility li::before {
   display: inline-block;
-  content: url("../assets/icon.png");
+  content: url("./assets/icon.png");
   margin-right: 10px;
 }
 .utility .gray,
