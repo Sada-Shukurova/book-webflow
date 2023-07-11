@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Webflow Password Protected page</title>
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- header start -->
+    <header class="bg-blue">
+      <div class="header d-flex container space-between align-center">
+        <div class="d-flex align-center icon-container">
+          <div class="d-flex align-center logo-container">
+            <i class="fa-solid fa-book-bookmark yellow fa-lg"></i>
+            <h3>Pages</h3>
+          </div>
+          <div class="header-icons-container d-flex">
+            <a
+              class="icons-border-bg-white"
+              target="_blank"
+              href="https://www.facebook.com/"
+            >
+              <i class="fa-brands i-blue fa-facebook-f fa-sm"> </i>
+            </a>
+
+            <a
+              class="icons-border-bg-white"
+              target="_blank"
+              href="https://twitter.com/"
+            >
+              <i class="fa-brands i-blue fa-twitter fa-sm"> </i>
+            </a>
+            <a
+              class="icons-border-bg-white"
+              target="_blank"
+              href="https://www.linkedin.com/"
+            >
+              <i class="fa-brands i-blue fa-linkedin-in fa-sm"> </i>
+            </a>
+          </div>
+        </div>
+        <!-- header end -->
+
+        <!-- navigation start -->
+        <div class="d-flex pages-container align-center">
+          <ul class="d-flex pages-container align-center links">
+            <div class="d-flex align-center hidden-logo logo-container">
+              <i class="fa-solid fa-book-bookmark yellow fa-lg"></i>
+              <h3>Pages</h3>
+              <a class="cart-shop" href="#cart"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></a>
+              <div id="close-menu">
+                <i class="fa-regular fa-rectangle-xmark fa-lg"></i>
+              </div>
+            </div>
+            <li><a href="#">Home</a></li>
+            <li>
+              <a href="#pages"
+                >Pages <i class="fa-solid fa-chevron-down fa-xs"></i
+              ></a>
+            </li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="header-icons-container d-flex">
+              <a
+                class="icons-border-bg-white"
+                target="_blank"
+                href="https://www.facebook.com/"
+              >
+                <i
+                  class="fa-brands fa-brands-header i-blue fa-facebook-f fa-sm"
+                >
+                </i>
+              </a>
+
+              <a
+                class="icons-border-bg-white"
+                target="_blank"
+                href="https://twitter.com/"
+              >
+                <i class="fa-brands fa-brands-header i-blue fa-twitter fa-sm">
+                </i>
+              </a>
+              <a
+                class="icons-border-bg-white"
+                target="_blank"
+                href="https://www.linkedin.com/"
+              >
+                <i
+                  class="fa-brands fa-brands-header i-blue fa-linkedin-in fa-sm"
+                >
+                </i>
+              </a>
+            </div>
+            <button class="btn menu-btn">
+              <a class="blue" href="#">Order Today</a>
+            </button>
+          </ul>
+          <a class="cart-shop" href="#cart"
+            ><i class="fa-solid fa-cart-shopping"></i
+          ></a>
+
+          <button class="btn menu-btn">
+            <a class="blue" href="#">Order Today</a>
+          </button>
+          <div class="menu" id="menu">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- navigation end -->
+
+    <!-- protected page txt start -->
+    <div class="bg-blue">
+      <div class="nav container d-flex">
+        <h1 class="unique-text">Protected Page</h1>
+        <p class="gray w-400">
+          There are many variations of passages of Lorem Ipsum available, have
+          suffered alteration in some form.
+        </p>
+      </div>
+    </div>
+    <!-- protected page txt end -->
+
+    <!-- password protected start -->
+    <div class="protected-container d-flex center">
+      <div class="bg-light-gray d-flex f-dir-column">
+        <h2 class="blue protected-form-heading">Password Protected</h2>
+        <p class="gray">
+          This page is password protected. If you are the website admin, or have
+          access to this page, please type your password below.
+        </p>
+        <form action="" method="post" class="protect-form d-flex f-dir-column">
+          <label for="protect-password">
+            <img src="../assets/key-icon.png" alt="user icon" />
+            <input
+              type="password"
+              name="protect-password"
+              placeholder="Enter your password"
+              id="protect-password"
+            />
+          </label>
+          <button class="btn protect-submit" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <!-- password protected end -->
+
+    <!-- footer start -->
+    <footer class="bg-blue">
+      <div class="d-flex space-between container footer-container">
+        <div class="footer-logo-container d-flex">
+          <div class="d-flex align-center pages-bookmark">
+            <i class="fa-solid fa-book-bookmark yellow fa-lg"></i>
+            <h3>Pages</h3>
+          </div>
+          <div class="soc-media-icons d-flex">
+            <a
+              class="icons-border"
+              target="_blank"
+              href="https://www.facebook.com/"
+            >
+              <i class="fa-brands fa-facebook-f fa-sm"> </i>
+            </a>
+            <a class="icons-border" target="_blank" href="https://twitter.com/">
+              <i class="fa-brands fa-twitter fa-sm"> </i>
+            </a>
+            <a
+              class="icons-border"
+              target="_blank"
+              href="https://www.linkedin.com/"
+            >
+              <i class="fa-brands fa-linkedin-in fa-sm"> </i>
+            </a>
+            <a
+              class="icons-border"
+              target="_blank"
+              href="https://www.instagram.com/"
+            >
+              <i class="fa-brands fa-instagram fa-sm"> </i>
+            </a>
+          </div>
+        </div>
+
+        <div class="explore d-flex">
+          <h3>Explore</h3>
+          <ul class="gray">
+            <li><img src="../assets/dots.png" alt="" /> Home</li>
+            <li><img src="../assets/dots.png" alt="" /> About Us</li>
+            <li><img src="../assets/dots.png" alt="" /> Services</li>
+            <li><img src="../assets/dots.png" alt="" /> Appointments</li>
+            <li><img src="../assets/dots.png" alt="" /> Blog</li>
+            <li><img src="../assets/dots.png" alt="" /> Contact Us</li>
+          </ul>
+        </div>
+        <div class="utility d-flex">
+          <h3>Utility Pages</h3>
+          <ul class="gray">
+            <li><img src="../assets/dots.png" alt="" /> Start here</li>
+            <li><img src="../assets/dots.png" alt="" /> Style guide</li>
+            <li><img src="../assets/dots.png" alt="" /> 404 not found</li>
+            <li><img src="../assets/dots.png" alt="" /> Password protected</li>
+            <li><img src="../assets/dots.png" alt="" /> Licenses</li>
+            <li><img src="../assets/dots.png" alt="" /> Changelog</li>
+          </ul>
+        </div>
+        <div class="in-touch d-flex">
+          <h3>Keep in Touch</h3>
+          <div class="contact d-flex">
+            <h4 class="min-66">Address :</h4>
+            <h5 class="gray">24A Kingston St, Los Vegas NC 28202, USA.</h5>
+          </div>
+          <div class="contact d-flex">
+            <h4 class="min-66">Mail :</h4>
+            <h5 class="gray">support@doctors.com</h5>
+          </div>
+          <div class="contact d-flex">
+            <h4 class="min-66">Phone :</h4>
+            <h5 class="gray">(+22) 123 - 4567 - 900</h5>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- copyright start -->
+    <div class="copyright bg-blue">
+      <div class="container">
+        <h5 class="copyright-txt">
+          <span class="gray">©️ Drafted</span> by Victorflow -
+          <span class="gray">Powered by</span>
+        </h5>
+      </div>
+    </div>
+    <!-- copyright end -->
+
+    <script>
+      let menu = document.getElementById("menu");
+      let links = document.querySelector(".links");
+      let menuClose = document.getElementById("close-menu");
+
+      menu.addEventListener("click", menuToggle);
+      function menuToggle() {
+        links.classList.toggle("active");
+      }
+      menuClose.addEventListener("click", closeMenuToogle);
+      function closeMenuToogle() {
+        links.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
