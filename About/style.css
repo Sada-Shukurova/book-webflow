@@ -610,6 +610,9 @@ ul {
   .unique-text::after {
     display: none;
   }
+  .includes-text::after{
+    display: none;
+  }
   .about-author-container {
     flex-direction: column;
     align-items: center;
@@ -623,6 +626,21 @@ ul {
   .about-author-text h2::after {
     display: none;
   }
+  .books-section{
+    padding: 0;
+  }
+  
+
+.author-img-container img {
+
+    padding-bottom: 30px;
+}
+.about-author-container {
+  gap: 20px;
+}
+.includes-text{
+  padding: 0;
+}
   .my-story-container {
     flex-direction: column;
     align-items: center;
@@ -689,11 +707,34 @@ ul {
   .books-pages-cont {
     justify-content: center;
   }
+  .publication{
+    align-items: center;
+  }
+  .publication-date{
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .books-sec-cont{
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .books-sec-cont *{
+    text-align: center;
+  }
+  .books-pages-cont{
+    justify-content: space-around;
+
+  }
+  .books-small{
+    max-height: unset;
+  }
 }
 @media only screen and (max-width: 408px) {
   .story-1::after {
     bottom: -20px;
   }
+
 }
 @media only screen and (max-width: 365px) {
   .about-author-card {
