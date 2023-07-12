@@ -418,7 +418,7 @@ ul {
     padding: 50px;
   }
   .protected-container {
-    padding: 50px;
+    padding: 40px;
   }
   .protected-form-heading::after {
     display: none;
@@ -462,6 +462,9 @@ ul {
   .bg-light-gray {
     padding: 50px;
     min-width: 250px;
+  }
+  .protected-container {
+    padding: 20px;
   }
 }
 
