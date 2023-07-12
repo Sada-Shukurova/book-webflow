@@ -480,7 +480,9 @@ ul {
   .all-books {
     justify-content: center;
   }
-
+.books-section{
+  padding: 10px 0;
+}
   .books-sec-cont * {
     max-width: 300px;
     text-align: center;
