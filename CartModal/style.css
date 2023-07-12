@@ -519,6 +519,9 @@ ul {
   .single-book {
     gap: 30px;
   }
+  .modal{
+    left: 25%;
+  }
 }
 
 /* Mobile */
@@ -557,13 +560,19 @@ ul {
   .footer-logo-container {
     align-items: center;
   }
-  .modal {
-    left: 5%;
-    max-width: 250px;
-  }
+
   .book-in-cart {
-    flex-wrap: wrap;
     justify-content: center;
+  }
+  .modal{
+    left: 15%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .book-in-cart {
+  flex-direction: column;
+  align-items: center;
   }
 }
 @media only screen and (max-width: 565px) {
@@ -608,6 +617,31 @@ ul {
     align-items: center;
   }
 }
+@media screen and (max-width: 500px) {
+  .cart-book-container{
+    flex-direction: column;
+    align-items: center;
+  }
+  .cart-book-description *{
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .book-in-cart{
+    gap: 0;
+  }
+  .modal{
+    min-width: 300px;
+    left: 8%;
+    top: 5%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .modal{
+    left: 10%;
+    min-width: 250px;
+  }
+}
 @media screen and (max-width: 400px) {
   .single-book-container img {
     max-width: 200px;
@@ -640,12 +674,19 @@ ul {
     padding-top: 10px;
   }
   .modal {
-    max-width: 200px;
+    min-width: 230px;
+    left: 8%;
   }
   .modal-heading {
     padding: 5px 15px;
   }
   .book-in-cart {
     padding: 5px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .modal{
+left: 2%;
+min-width: 200px;
   }
 }
