@@ -380,6 +380,9 @@ ul {
   .unique-text::after {
     display: none;
   }
+  .error404{
+    padding: 30px 0;
+  }
   .error-txt {
     font-size: 150px;
   }
