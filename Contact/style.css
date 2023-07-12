@@ -493,6 +493,10 @@ ul {
   .cart-shop {
     display: none;
   }
+  .questions-heading{
+    padding-top: 20px;
+    margin: 0;
+  }
 }
 
 /* Mobile */
@@ -574,6 +578,9 @@ ul {
   .contact-container {
     flex-direction: column;
     align-items: center;
+  }
+  .questions-left{
+    padding-left: 0;
   }
 }
 
