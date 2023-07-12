@@ -366,6 +366,10 @@ ul {
   .unique-text::after {
     display: none;
   }
+  .licenses-container{
+    gap: 5px;
+    padding: 10px;
+  }
 
   .footer-container {
     flex-direction: column;
