@@ -371,6 +371,11 @@ ul {
   .cart-shop {
     display: none;
   }
+  
+
+.changelog-container {
+    padding: 40px;
+}
 }
 
 /* Mobile */
@@ -390,6 +395,9 @@ ul {
   }
 .bg-light-gray p{
     text-align: center;
+}
+.changelog-container {
+  padding: 20px;
 }
   .footer-container {
     flex-direction: column;
@@ -433,6 +441,9 @@ ul {
   .bg-light-gray {
     min-width: 180px;
   }
+  .changelog-container {
+    padding: 0;
+}
   .copyright-txt {
     padding-top: 10px;
   }
