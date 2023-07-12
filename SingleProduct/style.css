@@ -470,7 +470,8 @@ ul {
     max-width: 300px;
   }
   .single-book {
-    gap: 30px;
+    gap: 20px;
+    padding: 20px;
   }
 }
 
@@ -559,6 +560,7 @@ ul {
   }
   .single-book-description {
     max-width: 200px;
+    gap: 0;
   }
   .product-btn-container {
     flex-direction: column;
