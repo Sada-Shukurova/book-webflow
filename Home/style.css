@@ -1,17 +1,18 @@
 @font-face {
   font-family: Cardo-regular;
-  src: url(./fonts/Cardo-Regular.ttf);
+  src: url(../fonts/Cardo-Regular.ttf);
 }
 @font-face {
   font-family: Cardo-italic;
-  src: url(./fonts/Cardo-Italic.ttf);
+  src: url(../fonts/Cardo-Italic.ttf);
 }
 @font-face {
   font-family: Cardo-bold;
-  src: url(./fonts/Cardo-Bold.ttf);
+  src: url(../fonts/Cardo-Bold.ttf);
 }
 
 * {
+  font-family: Cardo-regular, Cardo-italic, Cardo-bold, serif;
   object-fit: cover;
 }
 .container {
@@ -851,6 +852,22 @@ ul {
     align-items: center;
   }
 }
+@media only screen and (max-width: 450px){
+  .subj-container{
+    flex-direction: column;
+    align-items: center;
+  }
+.subject-card{
+  min-width: 300px;
+}
+  .subjects{
+    flex-direction: column;
+    align-items: center;
+  }
+  .article-card{
+    max-width: 250px;
+  }
+}
 @media only screen and (max-width: 565px) {
   .books-sec-cont {
     flex-direction: column;
@@ -878,7 +895,9 @@ ul {
   .logo-container {
     gap: 50px;
   }
-
+.readers-img{
+  max-width: 250px;
+}
   .menu-btn {
     display: none;
   }
@@ -898,4 +917,16 @@ ul {
   .copyright-txt{
     padding-top: 10px;
   }
+}
+
+@media only screen and (max-width: 370px) {
+.article-card{
+  max-width: 220px;
+}
+.subject-card{
+  min-width: 200px;
+}
+.articles{
+  padding: 0;
+}
 }
